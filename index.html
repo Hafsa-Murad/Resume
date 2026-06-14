@@ -481,8 +481,8 @@ Here is the solution to fix the file path issue in your HTML portfolio, ensuring
             e.preventDefault();
             // Direct file path - learner_transcript.pdf in same directory as index.html
             const link = document.createElement('a');
-            link.href = 'learner_transcript.pdf';
-            link.download = 'Internship_Letter_Hafsa.pdf';
+            link.href = 'assets/learner_transcript.pdf';
+            link.download = 'assets/Internship_Letter_Hafsa.pdf';
             document.body.appendChild(link);
             link.click();
             document.body.removeChild(link);
@@ -496,8 +496,8 @@ Here is the solution to fix the file path issue in your HTML portfolio, ensuring
             e.preventDefault();
             // Direct file path - Hafsa_CV(2).pdf in same directory as index.html
             const link = document.createElement('a');
-            link.href = 'Hafsa_CV(2).pdf';
-            link.download = 'Hafsa_Murad_CV.pdf';
+            link.href = 'assets/Hafsa_CV(2).pdf';
+            link.download = 'assets/Hafsa_CV(2).pdf';
             document.body.appendChild(link);
             link.click();
             document.body.removeChild(link);
